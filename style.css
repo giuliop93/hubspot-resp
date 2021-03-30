@@ -10,9 +10,12 @@
 }
 
 .wrapper {
+    display: flex;
+    line-height: 39px;
     width: 80%;
     margin: auto;
     padding: 20px;
+    position: relative;
 }
 
 .navbar {
@@ -57,4 +60,37 @@
 
 li > a {
     color: dimgray;
+}
+
+.jumbotron > img {
+    width: 100%;
+    /* flex-grow: 1; */
+}
+
+.jumbotron {
+    display: flex;
+    position: relative;
+}
+
+.jumbotron > .wrapper {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 500px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.jumbotron > .wrapper > .gethub {
+    align-self: flex-start;
+}
+
+.wrapper > p {
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+.wrapper > img {
+    ;
+    margin: auto;
 }
