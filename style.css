@@ -10,7 +10,6 @@
 }
 
 .wrapper {
-    justify-content: space-between;
     width: 80%;
     margin: auto;
     padding: 20px;
@@ -42,4 +41,20 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
+}
+
+.bg-cream {
+    background-color: gainsboro;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.list-style > li {
+    float: left;
+}
+
+li > a {
+    color: dimgray;
 }
