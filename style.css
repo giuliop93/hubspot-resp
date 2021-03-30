@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #f5f8fa;
+}
+
+.wrapper {
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.decnone {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.gray {
+    color: gray;
+}
+
+.log-in {
+    color: coral;
+    padding: 9px;
+    border: 1px solid coral;
+    border-radius: 5px;
+}
+
+.gethub {
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
