@@ -23,6 +23,10 @@
     justify-content: space-between;
 }
 
+/* .test {
+    width: 80%;
+} */
+
 .decnone {
     text-decoration: none;
     padding: 10px;
@@ -90,7 +94,34 @@ li > a {
     padding: 10px 0;
 }
 
+.bg-azul {
+    background-color: 
+    #f5f8fa;
+}
+
+.bg-azul > .wrapper {
+    flex-direction: column;
+    text-align: center;
+}
+
 .wrapper > img {
-    ;
+    width: 20%;
     margin: auto;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.flexcol {
+    width: 20%;
+    flex-direction: column;
+}
+
+.book-img {
+    width: 100%
+}
+
+.book {
+    width: 80%;
 }
