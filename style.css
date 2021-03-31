@@ -337,3 +337,9 @@ h2 {
 .logo-gray {
     line-height: normal;
 }
+
+@media screen and (max-width: 768px) {
+    .none-xs {
+        display: none;
+    }
+}
