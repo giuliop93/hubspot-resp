@@ -265,13 +265,13 @@ h2 {
 }
 
 .brands {
-    width: 50%;
+    width: 40%;
 }
 
 .grill-3,
 .grill-4 {
     display: flex;
-    
+    text-align: right;
 }
 
 .grill-3 > .grill-item {
