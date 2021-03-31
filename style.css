@@ -287,3 +287,53 @@ h2 {
     border: none;
     width: calc(100% / 4);
 }
+
+.woman {
+    line-height: 1.6;
+    flex-basis: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-woman {
+    width: 50%;
+    align-content: flex-end;
+}
+
+.self {
+    align-self: flex-start;
+}
+
+.bg-gray {
+    background-color: darkslategrey;
+}
+
+.bg-gray > .wrapper {
+    justify-content: space-between;
+}
+
+.lastul > li:first-of-type {
+    font-weight: bold;
+}
+
+.contact {
+    color: darkslategrey;
+    border-radius: 10px;
+    background-color: rgb(222, 233, 248);
+}
+
+.auto {
+    background-color: darkslategrey;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.between {
+    justify-content: space-between;
+    background-color: darkslategrey;
+}
+
+.logo-gray {
+    line-height: normal;
+}
