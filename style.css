@@ -11,6 +11,7 @@
 
 .wrapper {
     display: flex;
+    flex-direction: column;
     line-height: 39px;
     width: 80%;
     margin: auto;
@@ -182,7 +183,8 @@ li > a {
     align-items: center;
     padding: 10px;
     margin: 15px 0;
-    flex-basis: calc((100% / 3) - 20px);
+    width: calc((100% / 3) - 20px);
+    flex-basis: 32%;
     text-align: center;
     flex-direction: column;
     border: 1px solid lightgray;
@@ -252,6 +254,11 @@ h2 {
     margin-top: 60px;
 }
 
+.bg-white > .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .text-left {
     text-align: left;
 }
@@ -297,6 +304,7 @@ h2 {
 }
 
 .img-woman {
+    margin-left: 30%;
     width: 50%;
     align-content: flex-end;
 }
@@ -310,6 +318,7 @@ h2 {
 }
 
 .bg-gray > .wrapper {
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -344,7 +353,14 @@ h2 {
     }
 
     .flexcol-30 {
-        flex-basis: calc(100% / 2);
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 993px) {
+       .flexcol-30 {
+        width: calc((100% / 2) - 20px);
+        flex-basis: 50%;
         flex-wrap: wrap;
     }
 }
